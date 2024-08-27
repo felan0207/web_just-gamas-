@@ -1,0 +1,112 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(207, 204, 204);
+
+}
+
+header {
+    background: rgb(243, 231, 123);
+    margin: 10px 15px 5px 20px;
+    padding: 10px;
+    width: 96%;
+    height: 130px;
+    text-align: right;
+    border-bottom-style: solid;
+
+}
+
+.logoc {
+    float: left;
+    width: 150px;
+    height: 130px;
+}
+
+.logoic {
+    float: left;
+    width: 150px;
+    height: 130px;
+}
+
+
+.blog>img {
+    width: 300px;
+    height: 300px;
+    margin: 10px 15px 10 px
+}
+
+.whatsapp {
+    width: 45px;
+    height: 45px;
+    box-shadow: 0px 0px 0px;
+    position: fixed;
+    right: 15px;
+    top: 85%;
+    z-index: 1;
+}
+
+
+
+footer {
+    background: rgb(243, 231, 123);
+    margin: 10px 15px 5px 20px;
+    padding: 10px;
+    width: 96%;
+    height: 130px;
+    text-align: justify;
+    border-bottom-style: solid;
+}
+
+.logof {
+    float: left;
+    width: 150px;
+    height: 130px;
+}
+
+img {
+    text-align: center;
+    width: 50px;
+    height: 50px;
+}
+
+.descripcion {
+    font-size: 20px;
+    text-align: justify;
+    border-style: double;
+}
+
+ul{
+    list-style: none;
+}
+.nav li a{
+    background-color: aquamarine;
+    color: black;
+    text-decoration: none;
+    padding: 10px 15px;
+    display: block;
+    text-align: center;
+}
+
+
+.nav li a:hover{
+    background-color: blanchedalmond;
+}
+.nav>{
+    float:left;
+}
+
+.nav li ul{
+    display: none;
+    position: absolute;
+    min-width: 120px;
+}
+.nav li:hover>ul{
+    display: block;
+}
+.nav li ul li{
+    position: relative;
+}
+.nav li ul li ul{
+    right: 120px;
+    top: 0px;
+}
